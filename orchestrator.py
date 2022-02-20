@@ -22,9 +22,9 @@ def run():
 
     modelname = save_model(clf)
 
-    # In loop for 5 times
+    # In loop for 4 times
     i = 0
-    while i < 5:
+    while i < 4:
         scoring_data = fetching_data()
         latest_data = select_random_point(scoring_data)
         print(latest_data)
